@@ -1,0 +1,71 @@
+body {
+    background-color:white;
+}
+
+.nav{
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.headings{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    margin-top: 70px;
+}
+
+.subheadings{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.aboutme{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.portfolio{
+    letter-spacing: 1px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 420px;
+}
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 5px;
+    cursor: pointer;
+    display:inline-block;
+    margin: 9px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+:checked + .card {
+    transform: scale(4.05);
+}

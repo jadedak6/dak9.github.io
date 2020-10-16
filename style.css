@@ -1,14 +1,9 @@
-body {
-    background-color:white;
-}
-
 .nav{
     z-index:2;
     width: 100%;
     letter-spacing: 3px;
     font-size: min(2vw, 13px);;
     background-color: black;
-    font-weight: 400;
     position: fixed;
     top: 0;
 }
@@ -17,35 +12,31 @@ body {
     font-size: 30px;
     letter-spacing: 4px;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 100;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .subheadings{
     font-size: 20px;
-    font-weight: 400;
     letter-spacing: 3px;
 }
 
 .aboutme{
-    font-weight: 100;
     letter-spacing: 1px;
     margin-top: 100px;
     font-size: min(3.5vw, 15px) ;
-}
-
-.blogs{
-    letter-spacing: 1px;
 }
 
 .portfolio{
     letter-spacing: 1px;
 }
 
+.philosophy{
+    letter-spacing: 1px;
+}
+
 .contact{
     text-align: center;
-    margin-top: 120px;
-    font-weight: 100;
+    margin-top: 70px;
     letter-spacing: 1px;
     line-height: 40px;
 }

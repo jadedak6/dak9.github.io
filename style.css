@@ -9,29 +9,33 @@
 }
 
 .headings{
-    font-size: 30px;
+    font-size: min(7vw, 30px);
     letter-spacing: 4px;
     font-family: 'PT Sans Narrow', sans-serif;
     margin-top: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .subheadings{
-    font-size: 20px;
+    font-size: min(5vw, 20px);
     letter-spacing: 3px;
 }
 
 .aboutme{
     letter-spacing: 1px;
     margin-top: 100px;
-    font-size: min(3.5vw, 15px) ;
+    font-size: min(3.9vw, 15px) ;
 }
 
 .portfolio{
     letter-spacing: 1px;
+    font-size: min(3.9vw, 15px) ;
 }
 
-.philosophy{
+.posts{
     letter-spacing: 1px;
+    font-size: min(3.9vw, 15px) ;
 }
 
 .contact{
@@ -42,15 +46,15 @@
 }
 
 /* Advance CSS */
-a:hover, a:visited, a:link, a:active{
-    text-decoration: none;
-    color: black;
-}
-
 .responsive {
     width: 100%;
     height: auto;
     max-width: 420px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: black;
 }
 
 .card{

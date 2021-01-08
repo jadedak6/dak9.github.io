@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    z-index:2;
+    width: 100%;
+    letter-spacing: 3px;
+    font-size: min(2.4vw, 13px);;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+}
+
+.abouttext{
+    margin-bottom: 40px; 
+    margin-left: 20%; 
+    margin-right: 20%; 
+    margin-top: 40px; 
+    line-height: 25px;
+    font-style: italic;
+}
+
+.headings{
+    font-size: min(7vw, 30px);
+    letter-spacing: 4px;
+    font-family: 'Neucha', cursive;
+    margin-top: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.subheadings{
+    font-family: 'Neucha', cursive;
+    font-size: min(5.8vw, 23px);
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+.aboutme{
+    letter-spacing: 1px;
+    font-size: min(5vw, 15px);
+    margin-top: 30px;
+}
+
+.portfolio{
+    letter-spacing: 1px;
+    font-size: min(3.9vw, 15px) ;
+}
+
+.posts{
+    letter-spacing: 1px;
+    font-size: min(3.9vw, 15px) ;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 70px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.icons{
+    padding: 8px;
+    width: 42px;
+    height: 42px;
+}
+
+/* Advance CSS */
+.responsive{
+    width: 100%;
+    height: auto;
+    max-width: 350px;  
+}
+
+.responsivecertificate {
+    width: 100%;
+    height: auto;
+    max-width: 420px;  
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 5px;
+    cursor: pointer;
+    display:inline-block;
+    margin: 9px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+:checked + .card {
+    transform: scale(4.05);
+}
